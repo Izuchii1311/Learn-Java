@@ -6,5 +6,17 @@ public class ProductApp {
         
         System.out.println(product.name);   // Indomie
         System.out.println(product.price);  // 3000
+
+        // hasil dari method toString()
+        System.out.println(product);        // Product Name : Indomie, price : 3000
+
+        Product product2 = new Product("Indomie", 3000);
+
+        System.out.println(product.equals(product2));               // true
+
+        // hashcode
+        System.out.println(product.hashCode());
+        System.out.println(product2.hashCode());
+        System.out.println(product.hashCode() == product2.hashCode());
     }
 }
