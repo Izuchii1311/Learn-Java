@@ -15,9 +15,10 @@ public class StaticApp {
         city.setName("Bandung");
         System.out.println(city.getName());                         // Bandung
 
-        System.out.println(Application.PROCESSORS);
+        System.out.println(Application.PROCESSORS);                 // Mengakses class Application
+                                                                    // 2
 
         // Import Static
-        System.out.println(APPLICATION);
+        System.out.println(APPLICATION);                            // Belajar Java
     }
 }
